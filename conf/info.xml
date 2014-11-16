@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+	<title xml:lang="ko">이미지 미리보기 애드온</title>
+	<title xml:lang="jp">イメージプレビューアドオン</title>
+	<title xml:lang="en">Image Preview Addon</title>
+	<description xml:lang="ko">
+		이미지 링크에 미리보기 기능을 추가하는 애드온 입니다. 설정값은 빈 값일경우 기본값이 적용됩니다.
+	</description>
+	<description xml:lang="jp">
+		画像リンクのプレビュー機能を追加するアドオンです。設定値は、空の値である場合、デフォルト値が適用されます。
+	</description>
+	<description xml:lang="en">
+		Add image preview function to image link. Default value applies when setting is blank.
+	</description>
+	<version>1.0</version>
+	<date>2014-11-03</date>
+
+	<author email_address="xvezda@naver.com" link="http://xvezda.blog.me">
+		<name xml:lang="ko">즈베즈다</name>
+		<name xml:lang="jp">ズベズダ</name>
+		<name xml:lang="en">Xvezda</name>
+	</author>
+
+	<extra_vars>
+		<var name="delay">
+			<title xml:lang="ko">딜레이 설정</title>
+			<title xml:lang="jp">ディレイの設定</title>
+			<title xml:lang="en">Delay Setting</title>
+			<description xml:lang="ko">미리보기를 표시하기 전의 딜레이를 설정합니다. [기본값 : 100]</description>
+			<description xml:lang="jp">プレビューを表示する前ディレイを設定します。[デフォルト : 100]</description>
+			<description xml:lang="en">Set the delay before showing the image. [Default : 100]</description>
+		</var>
+		<var name="position">
+			<title xml:lang="ko">위치 설정</title>
+			<title xml:lang="jp">場所の設定</title>
+			<title xml:lang="en">Position Setting</title>
+			<description xml:lang="ko">미리보기를 표시할 위치를 설정합니다. [기본값 : left+15 bottom]</description>
+			<description xml:lang="jp">プレビューを表示する位置を設定します。 [デフォルト：left+15 bottom]</description>
+			<description xml:lang="en">Set the display position of preview. [Default : left+15 bottom]</description>
+		</var>
+	</extra_vars>
+</addon>
