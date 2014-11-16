@@ -1,0 +1,2 @@
+xe-image-preview-addon
+======================
