@@ -11,7 +11,7 @@ if(!defined('__XE__'))
  * @author Xvezda (xvezda@naver.com)
  * @brief Add-on for preview image from image link
  */
-if($called_position == 'before_display_content' && (Context::getResponseMethod() == 'HTML' || !isCrawler()) && !Mobile::isFromMobilePhone())
+if($called_position == 'before_display_content' && Context::get('module') != 'admin' && (Context::getResponseMethod() == 'HTML' || !isCrawler()) && !Mobile::isFromMobilePhone())
 {
 	$tags = <<<EOD
 <script>
